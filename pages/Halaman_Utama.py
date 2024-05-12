@@ -24,8 +24,10 @@ def load_lottie_url(url):
     return r.json()
 
 lottie_json = load_lottie_url(lottie_url)
-st_lottie(lottie_json, width=630, height=300, key = 'hello')
-
+if lottie_json is not None:
+        st_lottie(lottie_json, width=630, height=300, key = 'hello')
+    else:
+        st.write("Failed to load Lottie animation.")
 
 # Pembahasan Normalitas dan Molaritas
 col1,col2,col3 = st.columns([1, 0.2, 1])
