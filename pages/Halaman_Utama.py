@@ -36,7 +36,7 @@ with col1:
     ## Apa itu Normalitas?
 
     :green[Normalitas] adalah ukuran yang menunjukkan konsentrasi pada berat setara dalam gram per liter larutan. Berat ekivalen itu sendiri adalah ukuran kapasitas reaktif molekul yang dilarutkan dalam larutan. Dalam suatu reaksi, tugas zat terlarut adalah menentukan normalitas suatu larutan. Normalitas juga disebut satuan konsentrasi larutan ekivalen.
-    Normalitas dapat di singkat dengan huruf "N", yang merupakan salah satu
+    Normalitas dapat di singkat dengan huruf 'N', yang merupakan salah satu
     opsi paling efektif dan berguna dalam proses laboratorium. Normalitas 
     umumnya hampir sama dengan molaritas atau M. Ketika molaritas adalah unit konsentrasi yang mewakili konsentrasi ion atau senyawa terlarut dalam suatu larutan, normalitas memiliki fungsi yang lebih lengkap, dengan 
     normalitas mewakili konsentrasi molar hanya dari komponen asam atau komponen dasar.
@@ -57,7 +57,7 @@ with col3:
     st.write("""
     ## Apa itu Molaritas?
 
-    :red[Molaritas] dalam konsentrasi larutan dikenal dengan istilah konsentrasi molar atau molaritas dengan simbol yang dimiliki yaitu M. Molaritas digunakan untuk mendapatkan konsentrasi larutan secara kuantitatif. 
+    :red[Molaritas] dalam konsentrasi larutan dikenal dengan istilah konsentrasi molar atau molaritas dengan simbol yang dimiliki yaitu 'M'. Molaritas digunakan untuk mendapatkan konsentrasi larutan secara kuantitatif. 
     Molaritas dinyatakan sebagai jumlah mol suatu solut dalam larutan dibagi dengan volume larutan yang ditentukan dalam liter. Molaritas juga dipengaruhi oleh volume, suhu, dan tekanan zat pelarut. Jika volume meningkat, suhu juga akan ikut meningkat sehingga molaritas larutan berkurang.
 
     Rumus untuk menghitung molaritas adalah sebagai berikut:
