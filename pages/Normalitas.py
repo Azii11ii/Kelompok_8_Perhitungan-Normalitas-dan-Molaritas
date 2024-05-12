@@ -36,7 +36,7 @@ def main():
     ''')
     st.write('Masukkan data: ')
     g = st.number_input('Masukkan Jumlah Gram Zat Terlarut (g)', step=1e-6, format='%.4f')
-    be = st.number_input('Masukkan Berat Molekul (BE)', min_value=0.0)
+    be = st.number_input('Masukkan Berat Ekivalen (BE)', min_value=0.0)
     v = st.number_input('Masukkan Volume Larutan (L)', min_value=0.0, format='%.3f')
     n = st.number_input('Masukkan Normalitas Larutan (N)', step=1e-6, format='%.4f')
     
