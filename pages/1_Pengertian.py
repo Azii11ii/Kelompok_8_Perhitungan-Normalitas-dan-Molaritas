@@ -15,18 +15,19 @@ def judul():
 if __name__ == '__main__':
     judul()
 
-# Animasi di halaman utama
-lottie_url= "https://lottie.host/5be44834-2c64-4955-947c-678915e3f42c/5TwYIVz3Ru.json"
-
-def load_lottie_url(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lottie_json = load_lottie_url(lottie_url)
-st_lottie(lottie_json, width=300, height=300, key = 'hello')
-
+with col2:
+    # Animasi di halaman utama
+    lottie_url= "https://lottie.host/5be44834-2c64-4955-947c-678915e3f42c/5TwYIVz3Ru.json"
+    
+    def load_lottie_url(url):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+    
+    lottie_json = load_lottie_url(lottie_url)
+    st_lottie(lottie_json, width=300, height=300, key = 'hello')
+    
 
 # Pembahasan Normalitas dan Molaritas
 col1,col2,col3 = st.columns([1, 0.2, 1])
