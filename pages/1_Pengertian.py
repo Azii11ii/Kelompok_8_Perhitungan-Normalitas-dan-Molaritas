@@ -15,7 +15,6 @@ def judul():
 if __name__ == '__main__':
     judul()
 
-    with col2:
         # Animasi di halaman utama
         lottie_url= "https://lottie.host/5be44834-2c64-4955-947c-678915e3f42c/5TwYIVz3Ru.json"
         
