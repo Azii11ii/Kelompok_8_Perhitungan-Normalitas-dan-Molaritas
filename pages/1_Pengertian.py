@@ -25,7 +25,7 @@ def load_lottie_url(url):
     return r.json()
 
 lottie_json = load_lottie_url(lottie_url)
-st_lottie(lottie_json, width=630, height=300, key = 'hello')
+st_lottie(lottie_json, width=300, height=300, key = 'hello')
 
 
 # Pembahasan Normalitas dan Molaritas
