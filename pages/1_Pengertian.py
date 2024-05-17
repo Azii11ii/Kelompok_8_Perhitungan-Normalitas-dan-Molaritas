@@ -11,11 +11,8 @@ def judul():
     col1, col2 = st.columns([1, 10])
     with col2:
         st.title(':blue[Normalitas dan Molaritas]')
-    
-if __name__ == '__main__':
-    judul()
 
-        # Animasi di halaman utama
+  #Animasi di halaman utama
         lottie_url= "https://lottie.host/5be44834-2c64-4955-947c-678915e3f42c/5TwYIVz3Ru.json"
         
         def load_lottie_url(url):
@@ -27,6 +24,8 @@ if __name__ == '__main__':
         lottie_json = load_lottie_url(lottie_url)
         st_lottie(lottie_json, width=300, height=300, key = 'hello')
     
+if __name__ == '__main__':
+    judul()
 
 # Pembahasan Normalitas dan Molaritas
 col1,col2,col3 = st.columns([1, 0.2, 1])
