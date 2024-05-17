@@ -15,7 +15,7 @@ def judul():
 if __name__ == '__main__':
     judul()
 
-col1,col2 = st.columns([1, 2])
+col1,col2 = st.columns([1, 5])
 
 with col2:
  #Animasi di halaman utama
