@@ -15,7 +15,7 @@ with col3:
     st.write(" ")
     
 st.page_link("Home.py", label="Home", icon="🏠")
-st.page_link("pages/1_Pengertian.py", label="Pengertian dan Infomasi", icon="📚")
+st.page_link("pages/1_Pengertian.py", label="Pengertian dan Informasi", icon="📚")
 st.page_link("pages/2_Normalitas.py", label="Normalitas", icon="🔶")
 st.page_link("pages/3_Molaritas.py", label="Molaritas", icon="🔷")
 st.page_link("pages/4_Tabel_Ar.py", label="Tabel Ar", icon="📁")
