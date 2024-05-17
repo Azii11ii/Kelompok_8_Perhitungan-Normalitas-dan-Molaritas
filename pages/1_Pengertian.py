@@ -8,7 +8,7 @@ with col2:
     
 # Halaman utama
 def judul():
-    col1, col2 = st.columns([1, 10])
+    col1, col2 = st.columns([1, 5])
     with col2:
         st.title(':blue[Normalitas dan Molaritas]')
     
