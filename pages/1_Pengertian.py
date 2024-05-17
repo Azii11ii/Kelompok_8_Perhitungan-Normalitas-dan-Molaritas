@@ -22,7 +22,7 @@ def judul():
             return r.json()
         
         lottie_json = load_lottie_url(lottie_url)
-        st_lottie(lottie_json, width=300, height=300, key = 'hello')
+        st_lottie(lottie_json, width=400, height=300, key = 'hello')
     
 if __name__ == '__main__':
     judul()
