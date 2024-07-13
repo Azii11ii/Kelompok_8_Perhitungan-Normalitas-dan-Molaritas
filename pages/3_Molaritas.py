@@ -43,7 +43,7 @@ def main():
          
          if st.button('Hitung Normalitas'):
              hasil_molaritas = perhitungan_molaritas(g, bm, v)
-             st.success(f"Hasil molaritas yang diperoleh: {hasil_molaritas} N")
+             st.success(f"Hasil molaritas yang diperoleh: {hasil_molaritas} M")
             
     elif option == 'Bobot dari Molaritas':
         bm = st.number_input('Masukkan Berat Molekul (BM)', min_value=0.0)
